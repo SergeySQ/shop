@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    min-height: 75px;
+    background: #222222;
+}
+
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header>.container {
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left,
+.header__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    padding-left: 41px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 33px;
+}
+
+.burger-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 33px;
+}
+
+.my-account {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 33px;
+}
+
+.brand {
+    height: 764px;
+    background-image: url(../img/brand-man.png);
+    background-repeat: no-repeat;
+    background-color: #F1E4E6;
+}
+
+.brand>.container {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.brand__block {
+    position: relative;
+    left: 72%;
+}
+
+.brand__title {
+    width: 400px;
+    line-height: 48px;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-left: 12px solid #f26d80;
+    padding-left: 12px;
+}
