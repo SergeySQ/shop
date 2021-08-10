@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*классы шапки*/
+
+.header {
+    background: #222222;
+    display: flex;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*Вместо высоты старайтес использовать отступы 
+  от элементов*/
+    padding: 18px 0;
+}
+
+.header__search {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__icons {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.header__icons:last-child {
+    margin-right: 0;
+}
+
+
+
+/*секция Brand*/
+
+.brand {
+    background-color: #F1E4E6;
+
+    /*Это то что можно использовать в замен класса container
+  800px это ширина блока 1600 деленая на 2, тогда элементы находятся по
+  середине экрана*/
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.brand__content {
+    display: flex;
+}
+
+.brand__img {
+    width: 50%;
+}
+
+.brand__photo {
+    height: 100%;
+}
+
+
+.brand__title {
+    padding-top: 290px;
+    padding-left: 64px;
+}
+
+.brand__title-content {
+    border-left: 12px solid #f26d80;
+    padding-left: 16px;
+}
+
+/*стили для текста все брал из фигмы, отвечал вам ранее где это брать*/
+.brand__header {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: black;
+}
+
+.brand__text {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: black;
+}
+
+.brand__text_red {
+    color: #f26d80;
+}
+
+.other__content {
+    margin-top: 65px;
+    height: 470px;
+}
+
+.other__top {
+    display: flex;
+}
+
+.other__item {
+    padding: 0 30px 30px 0;
+    position: relative;
+}
+
+.other__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.other__text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.other__big-text {
+    color: #f16d7f;
+    font-size: 30px;
+    font-weight: no;
+    text-transform: uppercase;
+}
+
+.products__header {
+    margin: 100px 0 0 0;
+}
+
+.products__big-text {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+
+.products__text {
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+.products__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.product {
+    width: 360px;
+    height: 580px;
+    margin: 0 30px 30px 0;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 0 #fff;
+    transition: box-shadow 1s;
+    background: #F8F8F8;
+}
+
+.product__img {
+    width: 360px;
+    height: 420px;
+    min-width: 360px;
+    min-height: 420px;
+    max-width: 360px;
+    max-height: 420px;
+}
+
+.product__title {
+    color: #222222;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 14px 0 14px;
+}
+
+.product__description {
+    padding: 17px 0 0 0;
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: justify;
+}
+
+.product__price {
+    color: #f16d7f;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 17px 14px 0 14px;
+}
+
+.products__footer {
+    text-align: center;
+}
+
+.products__button {
+    display: inline-block;
+    padding: 18px 24px;
+    text-decoration: none !important;
+    color: #F26376;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    border: 1px solid #FF6A6A;
+}
+
+.features__content {
+    background-color: #222224;
+    height: 341px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}

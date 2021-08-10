@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/izm.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- класс center удалил, его нет в стилях -->
+        <div class="header__content container">
+            <div class="header__left">
+                <!-- чтобы не было синих черточек нужно убрать пробелсы между тегами img и a -->
+                <a href="index.html" class="header__logo logo"><img src="img/logo.png" alt="logo" class="logo__img"></a>
+                <!-- вместо обычной картинки старайтесь использовать (если это возможно) svg с макета -->
+                <img src="img/search.png" class="header__search">
+            </div>
+            <div class="header__right">
+                <div class="burger-menu header__icons">
+                    <img src="img/burger-menu.png" alt="menu">
+                </div>
+                <div class="my-account header__icons">
+                    <img src="img/account.png" alt="account">
+                </div>
+                <div class="cart header__icons">
+                    <img src="img/cart.png" alt="cart">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="brand">
+            <div class="brand__content">
+
+                <div class="brand__img">
+                    <img class="brand__photo" src="img/brand-man.png" alt="brand">
+                </div>
+
+                <div class="brand__title">
+                    <div class="brand__title-content">
+                        <!-- Тут мы используем тег h1 (он один раз применяется на странице) -->
+                        <h1 class="brand__header">THE BRAND</h1>
+                        <!-- дальше используем просто класс текст -->
+                        <h2 class="brand__text">OF LUXERIOUS
+                            <!-- тут добавляем модификатор красный текст и используем для этого тег span -->
+                            <span class="brand__text_red">FASHION</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="other">
+            <div class="other__content container">
+                <div class="other__top">
+                    <div class="other__item other__item">
+                        <img src="img/Women.png" class="other__img">
+                        <div class="other__info">
+                            <h4 class="other__text">30% offers</h4>
+                            <h2 class="other__big-text">women</h2>
+                        </div>
+                    </div>
+                    <div class="other__item other__item">
+                        <img src="img/for-men.png" class="other__img">
+                        <div class="other__info">
+                            <h4 class="other__text">hot deal</h4>
+                            <h2 class="other__big-text">for men</h2>
+                        </div>
+                    </div>
+                    <div class="other__item other__item">
+                        <img src="img/for-kids.png" class="other__img">
+                        <div class="other__info">
+                            <h4 class="other__text">new arrivals</h4>
+                            <h2 class="other__big-text">for kids</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="other__bottom">
+                    <div class="other__item other__item">
+                        <img src="img/accesories.png" class="other__img">
+                        <div class="other__info">
+                            <h4 class="other__text">luxurious &amp; trendy</h4>
+                            <h2 class="other__big-text">accessories</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="products__content container">
+                <div class="products__header">
+                    <div class="products__big-text">Featured Items</div>
+                    <div class="products__text">Shop for items based on want we featured in this week</div>
+                </div>
+                <section class="products__container">
+                    <article class="products__product product"><img src="./img/cart_1.jpg" class="product__img">
+                        <div class="product__title">ELLERY X M'O CAPSULE</div>
+                        <div class="product__description">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</div>
+                        <div class="product__price">$52.00</div>
+                    </article>
+                    <article class="products__product product"><img src="./img/cart_1.jpg" class="product__img">
+                        <div class="product__title">ELLERY X M'O CAPSULE</div>
+                        <div class="product__description">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</div>
+                        <div class="product__price">$52.00</div>
+                    </article>
+                    <article class="products__product product"><img src="./img/cart_3.jpg" class="product__img">
+                        <div class="product__title">ELLERY X M'O CAPSULE</div>
+                        <div class="product__description">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</div>
+                        <div class="product__price">$52.00</div>
+                    </article>
+                    <article class="products__product product"><img src="./img/cart_4.jpg" class="product__img">
+                        <div class="product__title">ELLERY X M'O CAPSULE</div>
+                        <div class="product__description">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</div>
+                        <div class="product__price">$52.00</div>
+                    </article>
+                    <article class="products__product product"><img src="./img/cart_5.jpg" class="product__img">
+                        <div class="product__title">ELLERY X M'O CAPSULE</div>
+                        <div class="product__description">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</div>
+                        <div class="product__price">$52.00</div>
+                    </article>
+                    <article class="products__product product"><img src="./img/cart_6.jpg" class="product__img">
+                        <div class="product__title">ELLERY X M'O CAPSULE</div>
+                        <div class="product__description">Known for her sculptural takes on traditional tailoring,
+                            Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</div>
+                        <div class="product__price">$52.00</div>
+                    </article>
+                </section>
+                <footer class="products__footer"><a href="#" class="products__button">Browse All Product</a></footer>
+            </div>
+        </div>
+        <div class="features">
+            <section class="features__container container">
+                <div class="features__content">
+                    <article class="feature-item">
+                        <div class="feature-item__icon feature-item__icon_ico-1"></div>
+                        <div class="feature-item__container">
+                            <h1 class="feature-item__big-text">Free Delivery</h1>
+                            <p class="feature-item__text">Worldwide delivery on all. Authorit tively morph
+                                next-generation innov tion with extensive models.</p>
+                        </div>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-item__icon feature-item__icon_ico-2"></div>
+                        <div class="feature-item__container">
+                            <h1 class="feature-item__big-text">Free Delivery</h1>
+                            <p class="feature-item__text">Worldwide delivery on all. Authorit tively morph
+                                next-generation innov tion with extensive models.</p>
+                        </div>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-item__icon feature-item__icon_ico-3"></div>
+                        <div class="feature-item__container">
+                            <h1 class="feature-item__big-text">Free Delivery</h1>
+                            <p class="feature-item__text">Worldwide delivery on all. Authorit tively morph
+                                next-generation innov tion with extensive models.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
